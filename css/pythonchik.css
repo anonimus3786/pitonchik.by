@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.burger-menu{
+    display: none;
+}
+.menu{
+    background-color: rgb(99, 57, 7);
+    height: 100vh;
+    padding: 30px;
+    max-width: 19vw;
+    position: fixed;
+
+}
+.nav-bg{
+    height: 100vh;
+    padding: 30px;
+    max-width: 19vw;
+    width: 100vw;
+    background-color: gray;
+}
+li{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    transition: .3s;
+    list-style-type: none;
+    cursor: pointer;
+    /* margin: 15px 0; */
+}
+li:hover{
+color: rgb(11, 237, 226);
+background-color: black;
+padding: 10px;
+border-radius: 5px;
+}
+div.content{
+    background-color: rgb(62, 56, 56);
+    /* height: 100vh; */
+    width: 80vw;
+}
+main{
+    display: flex;
+
+}
+nav a:hover{
+    color:aqua;
+    
+
+}
+.tovar{
+    background-color: rgb(215, 249, 250);
+    width: 18vw;
+    /* min-width: 240px; */
+    padding-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.tovar img{
+    width: 18vw;
+    border-radius: 10px 10px 0 0;
+}
+.tovar h3,.tovar h4, .tovar p{
+    padding: 4px 10px;
+    color: black;
+    font-size: 18px;
+}
+.content-tovary{
+display: flex;
+flex-wrap: wrap;
+gap: 1vw;
+/* /* justify-content: space-evenly; */
+padding: 2vw;
+font-size: 24px;
+    color: white;
+}
+.old-price{
+    text-decoration: line-through;
+    color: gray;
+}
+h2{
+    font-size: 80px;
+    color: white;
+}
+.content-zagolovok{
+    padding: 2vw;
+}
+.tovar h3{
+    font-size: 22px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+}
+.reklama{
+    height: 20vw;
+    background-color: rgb(232, 229, 229);
+    border-radius: 10px;
+    background-image: url("/img/скудка.jpg");
+    background-size: 100%;
+    max-width: 1130px;
+    max-height: 295px;
+    background-repeat: no-repeat;
+}
+input{
+    width: 88%;
+    height: 40px;
+    font-size: 24px;
+    padding: 10px;
+}
+.poisk-ok{
+width: 10%;
+height: 40px;
+font-size: 24px;
+background: rgb(195,34,45);
+background: linear-gradient(0deg, rgba(195,34,45,1) 0%, rgba(253,248,45,1) 100%);
+}
+.poisk{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.burger{
+    background-color: rgb(208 199 199);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    padding: 10px;
+    height: 40px;
+    display: none;
+    position: fixed;
+}
+.burger img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.telegramm{
+    background-image: url("/img/безымянный код.jpg");
+    height: 258px;
+    width: 200px;
+}

@@ -1,0 +1,88 @@
+@media screen and (max-width:1024px) {
+    .tovary-v-magazine {
+        font-size: 58px;
+    }
+   h1{
+    font-size: 50px;
+   }
+   .tovar{
+    width: 50;
+   }
+   .tovar img{
+    width: 30vw;
+   }
+}
+
+@media screen and (max-width:860px) {
+    .tovar h3 {
+        font-size: 18px;
+    }
+
+    .tovar h4,
+    .old-price {
+        font-size: 14px;
+    }
+
+    .tovar p {
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .tovar img{
+        width: 24vw;
+    }
+    .tovar{
+        width: 24vw;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .tovar h3 {
+        font-size: 14px;
+    }
+
+    .menu {
+        max-width: 300px;
+    }
+
+    div.content {
+        width: 100vw;
+        padding-top: 40px;
+    }
+
+    .tovar h4,
+    .old-price {
+        font-size: 10px;
+    }
+
+    .tovar p {
+        font-size: 10px;
+    }
+
+    .menu li {
+        font-size: 18px;
+    }
+
+    .tovar {
+        width: 24vw;
+    }
+
+    .tovar img {
+        width: 24vw;
+    }
+
+    .vrapper {
+        position: absolute;
+        left: -300px;
+        width: 300px;
+        transition: .3s;
+        
+    }
+    .burger{
+        display: flex;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
